@@ -1,4 +1,151 @@
 <!DOCTYPE html>
 <html>
-    <body>Home</body>
+    <head>
+        <title>Хоолны веб сайт</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- /* zaana*/ -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+
+            body {
+            font-family: Arial, Helvetica, sans-serif;
+            }
+
+            /* Float four columns side by side */
+            .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+            }
+
+            /* Remove extra left and right margins, due to padding */
+            .row {margin: 0 -5px;}
+
+            /* Clear floats after the columns */
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+
+            /* Responsive columns */
+            @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+            }
+
+            /* Style the counter cards */
+            .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+           
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+             
+              <div class="carousel-inner">
+          
+                <div class="item active">
+                  <img src="sanaa1.jpg" alt="Food" style="width:90%; height: 100%;">
+                  
+                </div>
+          
+                <div class="item">
+                  <img src="sanaa1.jpg" alt="Food" style="width:90%; height: 100%;">
+                 
+                </div>
+              
+                <div class="item">
+                  <img src="sanaa2.jpg" alt="Food" style="width:90%; height: 100%;">
+                  
+                </div>
+            
+              </div>
+          
+              
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Өмнөх</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Дараах</span>
+              </a>
+            </div>
+            <h1>Хоолны цэс</h1>
+            
+              
+            <!-- <div class="card">
+                <img src="amttan.jpg" alt="Амттан" style="width: 100%;">
+                <div class="amttan">
+                    <h4><b>Амттан</b></h4>
+                    <p>Амттаны тухай</p>
+                </div>
+            </div>
+             -->
+
+             <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <img src="amttan.jpg" alt="Амттан" style="width: 100%;">
+                    <h3><a href="#">Амттан</a></h3>
+                    <p>Some text</p>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <img src="amttan.jpg" alt="Амттан" style="width: 100%;">
+                    <h3><a href="#">Амттан</a></h3>
+                    <p>Some text</p>
+                  </div>
+                </div>
+                
+                <div class="column">
+                  <div class="card">
+                    <img src="amttan.jpg" alt="Амттан" style="width: 100%;">
+                    <h3><a href="#">Амттан</a></h3>
+                    <p>Some text</p>
+                  </div>
+                </div>
+                
+                <div class="column">
+                  <div class="card">
+                    <img src="amttan.jpg" alt="Амттан" style="width: 100%;">
+                    <h3><a href="#">Амттан</a></h3>
+                    <p>Some text</p>
+                  </div>
+                </div>
+
+              </div>
+
+
+              <br><br><br><br>
+              <footer>
+                <p>2024 Хоолны захиалгын веб сайт &copy;</p>
+              </footer>
+              
+          </div>
+    </body>
 </html>
